@@ -7,9 +7,7 @@ document.querySelector('.btn-get-started').addEventListener('click', function() 
   document.getElementById('donationOverlay').style.display = 'flex';
 });
 
-document.querySelector('.btn-getstarted').addEventListener('click', function() {
-  document.getElementById('donationOverlay').style.display = 'flex';
-});
+
 
 document.querySelector('.donate-close-btn').addEventListener('click', function() {
   document.getElementById('donationOverlay').style.display = 'none';
